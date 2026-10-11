@@ -1,0 +1,8 @@
+name: Assignment Run
+on: [push, workflow_dispatch]
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 25f2008959@ds.study.iitm.ac.in
+        run: echo "Done!"
